@@ -1,26 +1,33 @@
 <html>
-	<body bgcolor="#f1f2f3">
-		<font size="4">
-		<ul type="none">
-			<li><a href="story.html" target="mainFrame"><object type="image/png" data="image/bullet.png"></object>О событии дня</a></li>
-			<li><a href="events.html" target="mainFrame"><object type="image/png" data="image/bullet.png"></object>Дополнительно</a></li>
-			<ul type="none">
-				<li><a href="events.html#Strong" target="mainFrame"><object type="image/png" data="image/bullet.png"></object>Силы сторон</a></li>
-				<ul type="none">
-					<li><a href="events.html#StrongGermany" target="mainFrame"><object type="image/png" data="image/bullet.png"></object>Германия</a></li>
-					<li><a href="events.html#StrongUSSR" target="mainFrame"><object type="image/png" data="image/bullet.png"></object>СССР</a></li>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+	</head>
+	<body>	
+		<ul class="main-menu">
+			<li class="active"><a href="#url">О событии дня</a></li>
+			<li class="menu-children">
+				<a href="events.html">Дополнительно</a>
+				<ul>
+					<li class="menu-children">
+						<a href="events.html#Strong">Силы сторон</a>
+						<ul>
+							<li><a href="events.html#StrongGermany">Германия</a></li>
+							<li><a href="events.html#StrongUSSR">СССР</a></li>
+						</ul>
+					</li>
+					<li><a href="events.html#Battle">Ход сражения</a></li>
+					<li><a href="events.html#Results">Итоги</a></li>
+					<li class="menu-children">
+						<a href="events.html#Losses">Потери</a>
+						<ul>
+							<li><a href="events.html#LossesUSSR">Потери Красной Армии</a></li>
+							<li><a href="events.html#LossesGermany">Потери Вермахта</a></li>
+						</ul>
+					</li>
 				</ul>
-				<li><a href="events.html#Battle" target="mainFrame"><object type="image/png" data="image/bullet.png"></object>Ход сражения</a></li>
-				<li><a href="events.html#Results" target="mainFrame"><object type="image/png" data="image/bullet.png"></object>Итоги</a></li>
-				<li><a href="events.html#Losses" target="mainFrame"><object type="image/png" data="image/bullet.png"></object>Потери</a></li>
-				<ul type="none">
-					<li><a href="events.html#LossesUSSR" target="mainFrame"><object type="image/png" data="image/bullet.png"></object>Потери Красной Армии</a></li>
-					<li><a href="events.html#LossesGermany" target="mainFrame"><object type="image/png" data="image/bullet.png"></object>Потери Вермахта</a></li>
-				</ul>
-			</ul>
-			<li><a href="gallery.html" target="mainFrame"><object type="image/png" data="image/bullet.png"></object>Галерея</a></li>
-			<li><a href="http://fivt.chuvsu.ru/kurs2/" target="_top"><object type="image/png" data="image/bullet.png"></object>К выбору даты</a></li>
-		</ul>
-		</font>
+			</li>
+			<li><a href="gallery.html">Галерея</a></li>
+			<li><a href="http://fivt.chuvsu.ru/kurs2/">К выбору даты</a></li>		
+		</ul> 
 	</body>
 </html>

@@ -1,51 +1,104 @@
 <html>
-	<body background="image/glass.png">
-        <table align="center" width="100%">
-            <tbody>
-                <tr>
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery1.jpg">
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15"  src="image/gallery2.jpg">
-                </tr>
-                <tr>
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery3.jpg">
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery4.jpg">
-                </tr>
-                <tr>
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery5.jpg">
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery6.jpg">
-                </tr>
-                <tr>
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery7.jpg">
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery8.jpg">
-                </tr>
-                <tr>
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery9.jpg">
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery10.jpg">
-                </tr>
-                <tr>
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery11.jpg">
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery12.jpg">
-                </tr>
-                <tr>
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery13.jpg">
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery14.jpg">
-                </tr>
-                <tr>
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery15.jpg">
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery16.jpg">
-                </tr>
-                <tr>
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery17.jpg">
-                    <td width="450" height="300" align="center"><img width="450" height="300" hspace="5" vspace="15" src="image/gallery18.jpg">
-                </tr>
-            </tbody>
-        </table>
-		<font size="4">
-			<p>
-				<a href="events.html" target="mainFrame">Назад</a>
-				<a href="story.html" target="mainFrame">Вперед</a><br>
-				<a href="story.html" target="mainFrame">На главную</a>
-			</p>
-		</font>
+	<head>
+		<title>Галерея</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<ul class="main-menu">
+			<li class="active"><a href="../index.html"><i class="fa fa-book" aria-hidden="true"></i> О событии дня</a></li>
+			<li class="menu-children">
+				<a href="events.html"><i class="fa fa-bars" aria-hidden="true"></i> Дополнительно</a>
+				<ul>
+					<li class="menu-children">
+						<a href="events.html#Strong"><i class="fa fa-bolt" aria-hidden="true"></i> Силы сторон</a>
+						<ul>
+							<li><a href="events.html#StrongGermany"><i class="fa fa-spin fa-asterisk" aria-hidden="true"></i> Германия</a></li>
+							<li><a href="events.html#StrongUSSR"><i class="fa fa-spin fa-star" aria-hidden="true"></i> СССР</a></li>
+						</ul>
+					</li>
+					<li><a href="events.html#Battle"><i class="fa fa-truck" aria-hidden="true"></i> Ход сражения</a></li>
+					<li><a href="events.html#Results"><i class="fa fa-gavel" aria-hidden="true"></i> Итоги</a></li>
+					<li class="menu-children">
+						<a href="events.html#Losses"><i class="fa fa-list-ul" aria-hidden="true"></i> Потери</a>
+						<ul>
+							<li><a href="events.html#LossesUSSR"><i class="fa fa-list" aria-hidden="true"></i> Потери Красной Армии</a></li>
+							<li><a href="events.html#LossesGermany"><i class="fa fa-list" aria-hidden="true"></i> Потери Вермахта</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i> Галерея</a></li>
+			<li><a href="http://fivt.chuvsu.ru/kurs2/"><i class="fa fa-arrow-left" aria-hidden="true"></i> К выбору даты</a></li>
+		</ul> 
+		<div class="content">
+			<table class="gallery">
+				<tbody>
+					<tr>
+						<td><img width="800" height="600" src="image/gallery1.jpg">
+						<td><img width="800" height="600" src="image/gallery2.jpg">
+						<td><img width="800" height="600" src="image/gallery3.jpg">
+					</tr>
+					<tr>
+						<td><img width="800" height="600" src="image/gallery4.jpg">
+						<td><img width="800" height="600" src="image/gallery5.jpg">
+						<td><img width="800" height="600" src="image/gallery6.jpg">
+					</tr>
+					<tr>
+						<td><img width="800" height="600" src="image/gallery7.jpg">
+						<td><img width="800" height="600" src="image/gallery8.jpg">
+						<td><img width="800" height="600" src="image/gallery9.jpg">
+					</tr>
+					<tr>
+						<td><img width="800" height="600" src="image/gallery10.jpg">
+						<td><img width="800" height="600" src="image/gallery11.jpg">
+						<td><img width="800" height="600" src="image/gallery12.jpg">
+					</tr>
+					<tr>
+						<td><img width="800" height="600" src="image/gallery13.jpg">
+						<td><img width="800" height="600" src="image/gallery14.jpg">
+						<td><img width="800" height="600" src="image/gallery15.jpg">
+					</tr>
+					<tr>
+						<td><img width="800" height="600" src="image/gallery16.jpg">
+						<td><img width="800" height="600" src="image/gallery17.jpg">
+						<td><img width="800" height="450" src="image/gallery18.jpg">
+					</tr>
+					<tr>
+						<td><img width="800" height="450" src="image/gallery19.jpg">
+						<td><img width="600" height="800" src="image/gallery20.jpg">
+						<td><img width="800" height="500" src="image/gallery21.jpg">
+					</tr>
+					<tr>
+						<td><img width="800" height="450" src="image/gallery22.jpg">
+						<td><img width="800" height="600" src="image/gallery23.jpg">
+						<td><img width="800" height="600" src="image/gallery24.jpg">
+					</tr>
+					<tr>
+						<td><img width="800" height="600" src="image/gallery25.jpg">
+						<td><img width="800" height="600" src="image/gallery26.jpg">
+						<td><img width="800" height="450" src="image/gallery27.jpg">
+					</tr>
+					<tr>
+						<td><img width="800" height="600" src="image/gallery28.jpg">
+						<td><img width="500" height="800" src="image/gallery29.jpg">
+						<td><img width="600" height="800" src="image/gallery30.jpg">
+					</tr>
+					<tr class="lab">
+						<td><img width="800" height="600" src="image/gallery31.jpg">
+						<td><img width="600" height="800" src="image/gallery32.jpg">
+						<td><img width="800" height="600" src="image/gallery33.jpg">
+					</tr>
+				</tbody>
+			</table>
+			<p class="nav"><span>
+				<a class="list" href="events.html">Назад</a>
+				<a class="list" href="../index.html">Вперед</a><br>
+				<a class="list" href="../index.html">На главную</a>
+			</span></p>
+			<div class="lab">
+				<a style="--n:1"></a><a style="--n:2"></a><a style="--n:3"></a><a style="--n:4"></a><a style="--n:5"></a><a style="--n:6"></a><a style="--n:7"></a><a style="--n:8"></a><a style="--n:9"></a><a style="--n:10"></a><a style="--n:11"></a><a style="--n:12"></a><a style="--n:13"></a><a style="--n:14"></a><a style="--n:15"></a><a style="--n:16"></a><a style="--n:17"></a><a style="--n:18"></a>
+			</div>
+		</div>
 	</body>
 </html>
