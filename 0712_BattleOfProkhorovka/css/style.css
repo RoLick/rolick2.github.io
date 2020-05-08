@@ -23,7 +23,7 @@
 	font-style: italic;
 }
 body {
-	background-size: auto;
+	background-size: cover;
 	background: url(../image/background.jpg) no-repeat center center;
 	background-attachment: fixed;
 }
