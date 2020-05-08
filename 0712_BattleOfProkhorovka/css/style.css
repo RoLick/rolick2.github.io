@@ -23,8 +23,8 @@
 	font-style: italic;
 }
 body {
-	background-size: cover;
-	background: url(../image/background.jpg) no-repeat center center;
+	background-size: auto;
+	background: url(../image/background.jpg) no-repeat center;
 	background-attachment: fixed;
 }
 .content {
@@ -33,28 +33,25 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 .content p {
-	display: inline-block
 	padding: 0 10px 0 0;
 	text-indent: 20px;
 }
 .content p span {
 	display: inline;
-	margin-block-start: 1em;
-	margin-block-stop: 1em;
 	background-color: rgba(0, 0, 0, 0.5);
 	box-shadow: -4px 0 0 rgba(0, 0, 0, 0.5);
 }
 .content p span:only-child {
 	box-shadow: -4px 0 0 rgba(0, 0, 0, 0.5), 4px 0 0 rgba(0, 0, 0, 0.5);
 }
-.content p span.one-span-have-br {
+.content p span.more-span-have-br {
 	box-shadow: -4px 0 0 rgba(0, 0, 0, 0.5), 4px 0 0 rgba(0, 0, 0, 0.5);
 }
 .content > a {
 	font-family: 'Century Gothic';
 	font-weight: bold;
 	font-variant: small-caps;
-	font-size: large;
+	font-size: x-large;
 	background-color: rgba(0, 0, 0, 0.5);
 	box-shadow: -4px 0 0 rgba(0, 0, 0, 0.5), 4px 0 0 rgba(0, 0, 0, 0.5);
 }
@@ -62,16 +59,16 @@ body {
 	text-indent: 0px;
 	padding-left: 20px;
 }
-.content p.nav a {
+.content p.nav a[href] {
 	color: red;
 }
-.content p.nav a:visited {
+.content p.nav a[href]:visited {
 	color: DarkRed;
 }
-.content p.nav a:hover {
+.content p.nav a[href]:hover {
 	color: IndianRed;
 }
-.content p.nav a:visited:hover {
+.content p.nav a[href]:visited:hover {
 	color: Crimson;
 }
 .content ul {
