@@ -334,3 +334,6 @@ body {
     padding: 5px 10px; /* Поля */
     border: 1px solid #333; /* Параметры рамки */
 }	
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	background: #000;
+}
